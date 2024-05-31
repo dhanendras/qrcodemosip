@@ -4,12 +4,12 @@ const { post_GetToken, get_GetUserInfo } = require("./esignetService");
 const app = express();
 app.use(express.json());
 
-app.get("/", (req, res) => {
+app.get("/qr", (req, res) => {
   res.send("Welcome to Token REST APIs!!");
 });
 
 //Token Request Handler
-app.post("/fetchQR", async (req, res) => {
+app.post("/qr/fetchQR", async (req, res) => {
   try {
     console.log("===req.body===", req.body)
     const tokenResponse = await post_GetToken(req.body);
