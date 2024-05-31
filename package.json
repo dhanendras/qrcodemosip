@@ -1,0 +1,19 @@
+{
+  "name": "QRCode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "devstart": "node app.js && nodemon ."
+  },
+  "author": "MOSIP",
+  "license": "MIT",
+  "dependencies": {
+    "@mosip/pixelpass": "^0.1.6",
+    "express": "^4.18.2",
+    "jose": "^4.11.1",
+    "nodemon": "^2.0.20"
+  }
+}
