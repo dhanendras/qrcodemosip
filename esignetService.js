@@ -1,6 +1,6 @@
 const jose = require("jose");
 const { ESIGNET_AUD_URL, CLIENT_PRIVATE_KEY } = require("./config");
-const { generateQRData } = require('@mosip/pixelpass')
+const { generateQRCode } = require('@mosip/pixelpass')
 
 
 const alg = "RS256";
@@ -19,7 +19,7 @@ const post_GetToken = async (
   data
 ) => {
   console.log(data)
-  let t = generateQRData(JSON.stringify(data))
+  let t = generateQRCode(JSON.stringify(data))
   return t
 };
 
