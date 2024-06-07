@@ -1,0 +1,41 @@
+{
+    "id": "did:web:37d27e4b-c196-4a57-bac6-fe2c99469ede",
+    "type": [
+        "VerifiableCredential",
+        "LifeInsuranceCredential",
+        "InsuranceCredential"
+    ],
+    "proof": {
+        "jws": "eyJhbGciOiJFZERTQSJ9.IntcInZjXCI6e1wiQGNvbnRleHRcIjpbXCJodHRwczovL3d3dy53My5vcmcvMjAxOC9jcmVkZW50aWFscy92MVwiLFwiaHR0cHM6Ly9ob2xhc2hjaGFuZC5naXRodWIuaW8vdGVzdF9wcm9qZWN0L2luc3VyYW5jZS1jb250ZXh0Lmpzb25cIix7XCJMaWZlSW5zdXJhbmNlQ3JlZGVudGlhbFwiOntcIkBpZFwiOlwiSW5zdXJhbmNlQ3JlZGVudGlhbFwifX1dLFwidHlwZVwiOltcIlZlcmlmaWFibGVDcmVkZW50aWFsXCIsXCJMaWZlSW5zdXJhbmNlQ3JlZGVudGlhbFwiLFwiSW5zdXJhbmNlQ3JlZGVudGlhbFwiXSxcImNyZWRlbnRpYWxTdWJqZWN0XCI6e1wicG9saWN5TnVtYmVyXCI6XCI0NDQ0NDRcIixcInBvbGljeU5hbWVcIjpcInRlc3RcIixcImZ1bGxOYW1lXCI6XCJtaW5pbSBuaXNpXCIsXCJkb2JcIjpcIjIwMjQtMDYtMDNcIixcImJlbmVmaXRzXCI6W1wiZXhlcmNpdGF0aW9uIGFsaXF1YSBjb25zZXF1YXQgcGFyaWF0dXIgZnVnaWF0XCIsXCJlaXVzbW9kXCJdLFwiZ2VuZGVyXCI6XCJNYWxlXCIsXCJtb2JpbGVcIjpcIjk5OTk5OTk5OTlcIixcImVtYWlsXCI6XCJhQGIuY29tXCJ9fSxcIm9wdGlvbnNcIjp7XCJjcmVhdGVkXCI6XCIyMDI0LTA2LTA0VDIwOjQ4OjE3LjY4NFpcIixcImNyZWRlbnRpYWxTdGF0dXNcIjp7XCJ0eXBlXCI6XCJSZXZvY2F0aW9uTGlzdDIwMjBTdGF0dXNcIn19LFwic3ViXCI6XCJkaWQ6d2ViOjRkOWM5ZDUwLWFlMzItNGY1ZS1iNGY2LWI2ZWNhNjNiMTY0OVwiLFwianRpXCI6XCJkaWQ6d2ViOjM3ZDI3ZTRiLWMxOTYtNGE1Ny1iYWM2LWZlMmM5OTQ2OWVkZVwiLFwibmJmXCI6MTcxNzUzNDA5NyxcImV4cFwiOjE5OTc2NDI4OTcsXCJpc3NcIjpcImRpZDp3ZWI6NGQ5YzlkNTAtYWUzMi00ZjVlLWI0ZjYtYjZlY2E2M2IxNjQ5XCJ9Ig.CVVbwKy4yMo4FYi5BiI0a_TDmM9IckSQtWzPR3W2FIwxIC-HrGKP9V3tYGXAw2F_qIDuPSbztf9JlhEufhjPDQ",
+        "type": "JsonWebSignature2020",
+        "created": "2024-06-04T06:44:32.418Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:4d9c9d50-ae32-4f5e-b4f6-b6eca63b1649#key-0"
+    },
+    "issuer": "did:web:4d9c9d50-ae32-4f5e-b4f6-b6eca63b1649",
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://holashchand.github.io/test_project/insurance-context.json",
+        {
+            "LifeInsuranceCredential": {
+                "@id": "InsuranceCredential"
+            }
+        }
+    ],
+    "issuanceDate": "2024-06-04T20:48:17.684Z",
+    "expirationDate": "2033-04-20T20:48:17.684Z",
+    "credentialSubject": {
+        "id": "did:web:4d9c9d50-ae32-4f5e-b4f6-b6eca63b1649",
+        "dob": "2024-06-03",
+        "email": "a@b.com",
+        "gender": "Male",
+        "mobile": "9999999999",
+        "benefits": [
+            "exercitation aliqua consequat pariatur fugiat",
+            "eiusmod"
+        ],
+        "fullName": "minim nisi",
+        "policyName": "test",
+        "policyNumber": "444444"
+    }
+}
